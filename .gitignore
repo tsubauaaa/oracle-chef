@@ -1,0 +1,3 @@
+*.vagrant
+*.kitchen
+files/default/database/*

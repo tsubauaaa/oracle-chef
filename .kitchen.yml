@@ -1,0 +1,27 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: OracleLinux5
+    driver_config:
+      box: OracleLinux5
+
+suites:
+  - name: ora-chef
+    driver:
+      network:
+        - ["forwarded_port", {guest: 1158, host: 11158}]
+        - ["forwarded_port", {guest: 1521, host: 11521}]
+      synced_folders:
+        - ["./", "/vagrant"]
+      customize:
+        cpus: 1
+        memory: 2048
+
+    run_list:
+      - recipe[oracle::default]
+    attributes:
