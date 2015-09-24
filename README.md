@@ -1,4 +1,4 @@
-oracle Cookbook
+Oracle Cookbook
 ===============
 This cookbook makes your Oracle Database.
 
