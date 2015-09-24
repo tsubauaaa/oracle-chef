@@ -69,9 +69,6 @@ Just include `oracle` in your node's `run_list`:
 
 Contributing
 ------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
-
-e.g.
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write your change
@@ -81,4 +78,4 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Distributed under the [MIT License][mit].
