@@ -13,13 +13,8 @@ Oracle Database 11g Release 2 (11.2.0.1.0)
 Both disk 1 and disk 2 should have been unzipped into the same database directory.
 It stores the directory to files/default.
 
-#### packages
-- `toaster` - oracle needs toaster to brown your bagel.
-
 Attributes
 ----------
-
-#### oracle::default
 <table>
   <tr>
     <th>Key</th>
