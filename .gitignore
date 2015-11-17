@@ -1,3 +1,5 @@
 *.vagrant
 *.kitchen
 files/default/database/*
+.kitchen/
+.kitchen.local.yml
